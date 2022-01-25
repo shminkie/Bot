@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "target": "es5",
+    "outDir": "./dist",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "baseUrl": "./src",
+    "paths": {
+        "@config": ["./config.json"],
+        "@services/*": ["services/*"]
+    }
+  },
+  "include": [
+    "**/index.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
